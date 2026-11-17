@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" data-theme="apple">
+<head>
+<meta charset="utf-8">
+<title>pena_soundplayer</title>
+<link rel="stylesheet" href="fonts/yt/roboto.css">
+<link rel="stylesheet" href="fonts/apple/sf-pro.css">
+<link rel="stylesheet" href="fonts/spotify/stylesheet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="toast" class="toast">
+  <img id="toastImg" alt="">
+  <div>
+    <small>Now playing</small>
+    <b id="toastTitle"></b>
+    <span id="toastChannel"></span>
+  </div>
+</div>
+
+<div id="streamer" class="streamer"><i></i><span id="streamerTxt"></span></div>
+
+<div id="app">
+  <div class="card" id="card">
+    <div class="ambient" id="ambient"></div>
+
+    <section class="deck st">
+      <div class="art" id="artBox">
+        <img id="art" alt="">
+        <svg class="art-empty" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13M9 18a3 3 0 11-6 0 3 3 0 016 0zm12-2a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        <div class="art-load" id="artLoad"><i></i></div>
+      </div>
+
+      <div class="meta">
+        <div class="eq" id="eq"><i></i><i></i><i></i><i></i><i></i></div>
+        <h1 id="title">Nothing playing</h1>
+        <p id="channel">Search for a song</p>
+      </div>
+
+      <div class="seek" id="seek" title="Click or drag to seek">
+        <div class="seek-rail"><div class="seek-fill" id="fill"></div></div>
+        <div class="seek-thumb" id="thumb"></div>
+      </div>
+      <div class="times"><span id="tcur">0:00</span><span id="tdur">0:00</span></div>
+
+      <div class="transport">
+        <button class="ico" id="bLoop" title="Loop"><svg viewBox="0 0 24 24"><path d="M17 2l4 4-4 4M3 11V9a3 3 0 013-3h15M7 22l-4-4 4-4M21 13v2a3 3 0 01-3 3H3"/></svg></button>
+        <button class="play" id="bPlay" title="Play / pause"><svg viewBox="0 0 24 24" id="playIco"><path d="M7 4l13 8-13 8z"/></svg></button>
+        <button class="ico" id="bSkip" title="Next"><svg viewBox="0 0 24 24"><path d="M5 5l10 7-10 7zM19 5v14"/></svg></button>
+        <button class="ico" id="bStop" title="Stop and clear queue"><svg viewBox="0 0 24 24"><rect x="6.5" y="6.5" width="11" height="11" rx="2"/></svg></button>
+      </div>
+
+      <div class="vol">
+        <svg viewBox="0 0 24 24"><path d="M11 5L6 9H3v6h3l5 4zM16 8.5a5 5 0 010 7M19 6a8.5 8.5 0 010 12"/></svg>
+        <input type="range" id="vol" min="0" max="100" value="60">
+        <span id="volVal">60</span>
+      </div>
+    </section>
+
+    <section class="browser st">
+      <div class="search">
+        <label class="field">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <input id="q" type="text" maxlength="200" placeholder="Song, artist, or a YouTube / Spotify link" autocomplete="off" spellcheck="false">
+          <span class="spin" id="qSpin"></span>
+        </label>
+        <button id="bSearch" class="go">Search</button>
+      </div>
+
+      <nav class="tabs">
+        <button id="tSearch" class="on">Results</button>
+        <button id="tQueue">Queue <em id="qCount">0</em></button>
+        <button id="tLists">Playlists</button>
+        <button id="tEq">Equalizer</button>
+        <div class="themes" id="themes">
+          <button class="sw-btn" data-t="apple" title="Apple Music"></button>
+          <button class="sw-btn" data-t="spotify" title="Spotify"></button>
+          <button class="sw-btn" data-t="ytmusic" title="YT Music"></button>
+        </div>
+        <button id="bClose" class="close" title="Close (Esc)"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </nav>
+
+      <div class="list" id="list"></div>
+      <footer id="status" class="status"></footer>
+    </section>
+
+    <div class="pop" id="pop"></div>
+    <div class="modal" id="modal"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

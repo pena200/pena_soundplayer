@@ -1,0 +1,20 @@
+{
+  "ytdlpPath": "",
+  "autoDownloadYtdlp": true,
+  "format": "bestaudio[ext=webm][abr<=?100]/bestaudio[ext=m4a][abr<=?100]/bestaudio",
+  "maxDurationSec": 900,
+  "searchResults": 8,
+  "concurrentDownloads": 2,
+  "cacheHours": 72,
+  "maxCacheMB": 1500,
+  "cookiesFile": "",
+  "extraArgs": [],
+  "standalonePort": 0,
+  "verbose": false,
+  "mode": "auto",
+  "searchConcurrency": 2,
+  "searchCacheMinutes": 10,
+  "verifyChecksum": true,
+  "autoUpdateYtdlp": true,
+  "updateHours": 24
+}

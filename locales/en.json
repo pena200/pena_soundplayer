@@ -1,0 +1,99 @@
+{
+    "title": "Sound player",
+    "copied": "Copied to clipboard.",
+    "keymap": {
+        "radio": "Open car radio"
+    },
+    "streamer": {
+        "help": "Toggle streamer mode (mutes the sound player)"
+    },
+    "err": {
+        "noChar": "Could not identify your character.",
+        "dbNotReady": "Database is not ready.",
+        "slowDown": "Slow down a little.",
+        "timeout": "That took too long. Try again.",
+        "noPermission": "You do not have permission to use this.",
+        "generic": "Something went wrong. Try again.",
+        "searchFailed": "Search failed.",
+        "unknownAction": "Unknown action.",
+        "noAnswer": "No answer from the server."
+    },
+    "search": {
+        "short": "Type at least 2 characters.",
+        "none": "No results. Try different keywords.",
+        "retry": "Couldn't find anything. Try again in a moment."
+    },
+    "song": {
+        "blocked": "This song is blocked on this server.",
+        "notFound": "Couldn't find that song."
+    },
+    "queue": {
+        "full": "The queue is full."
+    },
+    "status": {
+        "track": "Preparing track...",
+        "playlist": "Preparing playlist..."
+    },
+    "car": {
+        "noRadio": "This vehicle has no radio.",
+        "badSeat": "You cannot use the radio from this seat."
+    },
+    "pl": {
+        "needName": "Give the playlist a name.",
+        "limit": "You reached the playlist limit.",
+        "cannotSave": "This result cannot be saved.",
+        "notFound": "Playlist not found.",
+        "already": "Already in this playlist.",
+        "full": "This playlist is full.",
+        "noCode": "No playlist found for that code.",
+        "empty": "This playlist has no playable songs.",
+        "noneFound": "Couldn't find a song from this playlist."
+    },
+    "eq": {
+        "needName": "Give the preset a name.",
+        "invalid": "Invalid equalizer values.",
+        "limit": "You reached the preset limit.",
+        "notFound": "Preset not found.",
+        "noCode": "No preset found for that code."
+    },
+    "share": {
+        "failed": "Could not create a share code.",
+        "enter": "Enter a share code."
+    },
+    "boombox": {
+        "already": "You already have a boombox placed.",
+        "cannotPlace": "You cannot place it right now.",
+        "prompt": "[E] Boombox  [G] Pick up"
+    },
+    "cmd": {
+        "block": "Block a song on this server",
+        "unblock": "Unblock a song",
+        "blocklist": "List blocked song ids",
+        "boombox": "Place a boombox (admin)",
+        "refHelp": "YouTube link or id",
+        "badRef": "Could not read a YouTube id from that.",
+        "blocked": "Blocked %s",
+        "unblocked": "Unblocked %s (ids listed in config.lua stay blocked until you remove them there)",
+        "none": "No blocked songs.",
+        "list": "Blocked: %s"
+    },
+    "track": {
+        "untitled": "Untitled"
+    },
+    "backend": {
+        "notReady": "The player is not ready yet. Try again in a moment."
+    },
+    "play": {
+        "nothing": "Nothing to play."
+    },
+    "ref": {
+        "spotifyTrackOnly": "Only Spotify track links are supported (not playlists or albums).",
+        "unsupported": "Only YouTube and Spotify track links are supported.",
+        "spotifyRead": "Couldn't read that Spotify link."
+    },
+    "dl": {
+        "unavailable": "That video isn't available.",
+        "tooLong": "That one is too long to play.",
+        "rateLimit": "Too many requests right now. Try again in a moment."
+    }
+}

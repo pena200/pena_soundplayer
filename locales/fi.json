@@ -1,0 +1,99 @@
+{
+    "title": "Äänentoisto",
+    "copied": "Kopioitu leikepöydälle.",
+    "keymap": {
+        "radio": "Avaa autoradio"
+    },
+    "streamer": {
+        "help": "Streamer-tila päälle/pois (mykistää äänentoiston)"
+    },
+    "err": {
+        "noChar": "Hahmoasi ei voitu tunnistaa.",
+        "dbNotReady": "Tietokanta ei ole valmis.",
+        "slowDown": "Hidasta vähän.",
+        "timeout": "Se kesti liian kauan. Yritä uudelleen.",
+        "noPermission": "Sinulla ei ole oikeutta tähän.",
+        "generic": "Jokin meni pieleen. Yritä uudelleen.",
+        "searchFailed": "Haku epäonnistui.",
+        "unknownAction": "Tuntematon toiminto.",
+        "noAnswer": "Palvelin ei vastannut."
+    },
+    "search": {
+        "short": "Kirjoita vähintään 2 merkkiä.",
+        "none": "Ei tuloksia. Kokeile muita hakusanoja.",
+        "retry": "Mitään ei löytynyt. Yritä hetken kuluttua uudelleen."
+    },
+    "song": {
+        "blocked": "Tämä kappale on estetty tällä palvelimella.",
+        "notFound": "Kappaletta ei löytynyt."
+    },
+    "queue": {
+        "full": "Jono on täynnä."
+    },
+    "status": {
+        "track": "Valmistellaan kappaletta...",
+        "playlist": "Valmistellaan soittolistaa..."
+    },
+    "car": {
+        "noRadio": "Tässä ajoneuvossa ei ole radiota.",
+        "badSeat": "Et voi käyttää radiota tältä istuimelta."
+    },
+    "pl": {
+        "needName": "Anna soittolistalle nimi.",
+        "limit": "Soittolistojen enimmäismäärä on täynnä.",
+        "cannotSave": "Tätä tulosta ei voi tallentaa.",
+        "notFound": "Soittolistaa ei löytynyt.",
+        "already": "Kappale on jo tällä soittolistalla.",
+        "full": "Tämä soittolista on täynnä.",
+        "noCode": "Koodilla ei löytynyt soittolistaa.",
+        "empty": "Tällä soittolistalla ei ole soitettavia kappaleita.",
+        "noneFound": "Soittolistalta ei löytynyt kappaletta."
+    },
+    "eq": {
+        "needName": "Anna esiasetukselle nimi.",
+        "invalid": "Virheelliset taajuuskorjaimen arvot.",
+        "limit": "Esiasetusten enimmäismäärä on täynnä.",
+        "notFound": "Esiasetusta ei löytynyt.",
+        "noCode": "Koodilla ei löytynyt esiasetusta."
+    },
+    "share": {
+        "failed": "Jakokoodia ei voitu luoda.",
+        "enter": "Anna jakokoodi."
+    },
+    "boombox": {
+        "already": "Sinulla on jo boomboxi asetettuna.",
+        "cannotPlace": "Et voi asettaa sitä juuri nyt.",
+        "prompt": "[E] Boomboxi  [G] Ota mukaan"
+    },
+    "cmd": {
+        "block": "Estä kappale tällä palvelimella",
+        "unblock": "Poista kappaleen esto",
+        "blocklist": "Listaa estetyt kappaleet",
+        "boombox": "Aseta boomboxi (admin)",
+        "refHelp": "YouTube-linkki tai tunnus",
+        "badRef": "Linkistä ei löytynyt YouTube-tunnusta.",
+        "blocked": "Estetty %s",
+        "unblocked": "Esto poistettu: %s (config.lua:ssa listatut tunnukset pysyvät estettyinä, kunnes poistat ne sieltä)",
+        "none": "Ei estettyjä kappaleita.",
+        "list": "Estetyt: %s"
+    },
+    "track": {
+        "untitled": "Nimetön"
+    },
+    "backend": {
+        "notReady": "Soitin ei ole vielä valmis. Yritä hetken kuluttua uudelleen."
+    },
+    "play": {
+        "nothing": "Ei mitään soitettavaa."
+    },
+    "ref": {
+        "spotifyTrackOnly": "Vain Spotify-kappalelinkit tuetaan (ei soittolistoja tai albumeita).",
+        "unsupported": "Vain YouTube- ja Spotify-kappalelinkit tuetaan.",
+        "spotifyRead": "Spotify-linkkiä ei voitu lukea."
+    },
+    "dl": {
+        "unavailable": "Tämä video ei ole saatavilla.",
+        "tooLong": "Tämä on liian pitkä soitettavaksi.",
+        "rateLimit": "Liikaa pyyntöjä juuri nyt. Yritä hetken kuluttua uudelleen."
+    }
+}
